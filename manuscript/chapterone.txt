@@ -1,4 +1,6 @@
 # **Laravel on AWS: a reference architecture**
+
+
 ## **A guide to networking, security, autoscaling and high-availability**
 
 
@@ -38,7 +40,7 @@ It\u2019s not an easy task to setup a durable architecture for your web applicat
 \u2014Finally, we rely on as many *distributed services* as possible to delegate failure management to AWS: services like S3, SQS, ELB/ALB, ECR and CloudWatch are designed for maximum resiliency without us having to care for the instances they run on.
 
 
-! [Laravel, made highly available with almost a one-click deploy!] (images/fig01.png)
+![Laravel, made highly available with almost a one-click deploy!](images/fig01.png)
 
 
 ## **How we will build ourselves a repeatable process:**
@@ -66,9 +68,9 @@ By combining all three, both our infrastructure and our application configuratio
 Start with authenticating your command line by downloading the API key and secret for a new user in the IAM section of your AWS console. This user will need to have to have permissions to create resources for all the services we will use below. Follow the prompts from:
 
 
-{line-numbers=on,starting-line-number=1}
-> `aws configure`
-> 
+```no-highlight
+   aws configure
+```
 C> `Use the profile option to save different credentials for different projects`
 
 
