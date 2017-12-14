@@ -38,7 +38,7 @@ It\u2019s not an easy task to setup a durable architecture for your web applicat
 \u2014Finally, we rely on as many *distributed services* as possible to delegate failure management to AWS: services like S3, SQS, ELB/ALB, ECR and CloudWatch are designed for maximum resiliency without us having to care for the instances they run on.
 
 
-! [Laravel, made highly available with almost a one-click deploy!] (images/fig01.png)
+![Laravel, made highly available with almost a one-click deploy!](images/fig01.png)
 
 
 ## **How we will build ourselves a repeatable process:**
