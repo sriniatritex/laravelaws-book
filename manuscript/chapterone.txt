@@ -66,10 +66,13 @@ By combining all three, both our infrastructure and our application configuratio
 Start with authenticating your command line by downloading the API key and secret for a new user in the IAM section of your AWS console. This user will need to have to have permissions to create resources for all the services we will use below. Follow the prompts from:
 
 
+~~~~~~~~
 {line-numbers=on,starting-line-number=1}
-> `aws configure`
-> 
-C> `Use the profile option to save different credentials for different projects`
+   aws configure
+~~~~~~~~
+ 
+ 
+  Use the profile option to save different credentials for different projects
 
 
 ## **2. Order SSL certificates**
