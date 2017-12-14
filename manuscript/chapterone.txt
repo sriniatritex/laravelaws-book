@@ -1,4 +1,5 @@
 # **Laravel on AWS: a reference architecture**
+
 ## **A guide to networking, security, autoscaling and high-availability**
 
 
